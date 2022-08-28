@@ -26,7 +26,7 @@
 
 ### About me:
 
-#### I am a positive and purposeful person who loves smart and interesting people, that's why I want to get a profession in IT. I strive to learn cool skills and make new friends.
+#### Hello, I am a positive and purposeful person who loves smart and interesting people, that's why I want to get a profession in IT. I strive to learn cool skills and make new friends.
 
 ---
 
