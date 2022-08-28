@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  width: 200px;
+  text-align: center;
+  color: white;
+  background-color: #505050;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #86898f;
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.info-text {
+  padding-top: 33px;
+  margin-left: 40px;
+}
+
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.conteiner {
+  position: relative;
+  max-width: 470px;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
+}
+
+.navig {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.navig ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.head h2 {
+  margin: 0;
+  padding: 0;
+  transform: translate(0, -100%);
+  -webkit-transform: translate(0, -100%);
+  -moz-transform: translate(0, -100%);
+  -ms-transform: translate(0, -100%);
+  -o-transform: translate(0, -100%);
+}
+
+.contacts ul {
+  list-style: none;
+}
+
+.contacts li img {
+  float: left;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.bg-yellow {
+  background: #fff9dc;
+}
+
+.bg-green {
+  background: #e5ffe7;
+}
+
+.bg-red {
+  background: #ffe5e5;
+}
+
+.bg-blue {
+  background: #c3f6ff;
+}
+
+.bg-purple {
+  background: #e7e1ff;
+}
+
+.bg-antique {
+  background: #faebd7;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.list2 li {
+  margin-bottom: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100%;
+  height: 10px;
+  padding: 20px;
+  font-size: 0.8rem;
+  color: #ffffff;
+  background-color: #505050;
+}
+
+footer a img {
+  position: relative;
+  top: 2px;
+}
+
+.imhr a {
+  margin-left: 5px;
+  color: white;
+}
+
+.imhr img {
+  position: relative;
+  top: 3px;
+}
