@@ -6,20 +6,20 @@ html {
 
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 body {
+  box-sizing: border-box;
   background-color: #f1f1f1;
   color: #0f141e;
-  font-size: 12px;
+  font-size: 21px;
   font-weight: normal;
   font-family: "Roboto", sans-serif;
 }
 
 h2 {
-  width: 200px;
+  width: 250px;
+  font-size: 25px;
   text-align: center;
   color: white;
   background-color: #505050;
@@ -40,9 +40,13 @@ a:active {
 }
 
 .avatar {
-  width: 200px;
+  width: 300px;
   border-radius: 28px;
   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  -ms-border-radius: 28px;
+  -o-border-radius: 28px;
 }
 
 .info {
@@ -71,9 +75,11 @@ a:active {
 
 .conteiner {
   position: relative;
-  max-width: 470px;
-  padding: 15px;
-  margin: 0 auto;
+  max-width: 750px;
+  top: 10px;
+  padding: 30px;
+  margin: auto;
+  margin-bottom: 110px;
   background-color: white;
   box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
 }
@@ -85,7 +91,7 @@ a:active {
 
 .navig ul li {
   display: inline;
-  margin-right: 10px;
+  padding-right: 40px;
 }
 
 .head h2 {
@@ -109,26 +115,38 @@ a:active {
 }
 
 .bg-yellow {
+  position: relative;
+  top: 20px;
   background: #fff9dc;
 }
 
 .bg-green {
+  position: relative;
+  top: 40px;
   background: #e5ffe7;
 }
 
 .bg-red {
+  position: relative;
+  top: 60px;
   background: #ffe5e5;
 }
 
 .bg-blue {
+  position: relative;
+  top: 80px;
   background: #c3f6ff;
 }
 
 .bg-purple {
+  position: relative;
+  top: 100px;
   background: #e7e1ff;
 }
 
 .bg-antique {
+  position: relative;
+  top: 120px;
   background: #faebd7;
 }
 
@@ -150,28 +168,30 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
-  top: 100%;
-  right: 0;
-  width: 100%;
-  height: 10px;
+  position: relative;
+  top: 120px;
+  right: 30px;
+  width: 102.7%;
+  height: 50px;
   padding: 20px;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #ffffff;
   background-color: #505050;
+  box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
 }
 
 footer a img {
   position: relative;
-  top: 2px;
+  top: 3px;
 }
 
 .imhr a {
+  position: relative;
+  bottom: 11px;
   margin-left: 5px;
   color: white;
 }
 
 .imhr img {
   position: relative;
-  top: 3px;
 }
