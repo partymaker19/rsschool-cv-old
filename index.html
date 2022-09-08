@@ -10,6 +10,7 @@
       href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
     />
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+
     <script>
       hljs.initHighlightingOnLoad();
     </script>
@@ -17,16 +18,20 @@
   </head>
   <body>
     <div class="container">
-      <header>
+      <header class="header">
         <nav class="header_nav">
           <ul class="header_list">
-            <li class="header_item"><a href="#Contacts">Contacts</a></li>
-            <li class="header_item"><a href="#About">About</a></li>
-            <li class="header_item"><a href="#Skills">Skills</a></li>
-            <li class="header_item"><a href="#Code">Code</a></li>
-            <li class="header_item"><a href="#Education">Education</a></li>
-            <li class="header_item"><a href="#Languages">Languages</a></li>
+            <li class="header_item"><a class="header_link" href="#Contacts">Contacts</a></li>
+            <li class="header_item"><a class="header_link" href="#About">About</a></li>
+            <li class="header_item"><a class="header_link" href="#Skills">Skills</a></li>
+            <li class="header_item"><a class="header_link" href="#Code">Code</a></li>
+            <li class="header_item"><a class="header_link" href="#Education">Education</a></li>
+            <li class="header_item"><a class="header_link" href="#Languages">Languages</a></li>
           </ul>
+          <div class="header_nav_close">
+            <span class="header_nav_close_line"></span>
+            <span class="header_nav_close_line"></span>
+          </div>
         </nav>
         <div class="header_burger burger">
           <span class="burger_line burger_line_first"></span>
@@ -158,7 +163,7 @@
 
           <div class="card bg-purple">
             <h2 id="Education">Education</h2>
-            <ul>
+            <ul class="list3">
               <li>
                 <a href="https://ru.code-basics.com/languages/html"
                   >HTML &amp; CSS</a
@@ -175,27 +180,28 @@
           </div>
           <div class="card bg-antique">
             <h2 id="Languages">Languages</h2>
-            <ul>
+            <ul class="list4">
               <li>English Level - B1</li>
               <li>Russian - Native</li>
             </ul>
           </div>
         </div>
       </main>
-      <footer>
+      <footer class="footer">
         <div class="imhr">
-          <img
+          
+          <a href="https://github.com/partymaker19"
+          ><img class="git"
             src="Files/github.png"
             alt="github icon"
             width="40"
             height="40"
-          />
-          <a href="https://github.com/partymaker19">GitHub</a>
+          /></a>
         </div>
 
         <p>© 2022</p>
         <a href="https://rs.school/js/"
-          ><img
+          ><img class="logo"
             src="Files/logo_rs_text.svg"
             alt="rsschool logo"
             width="100"
@@ -203,5 +209,6 @@
         /></a>
       </footer>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
